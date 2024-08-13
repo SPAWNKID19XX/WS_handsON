@@ -1,0 +1,26 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background: rgb(236, 236, 236);
+}
+
+.navbar_footer{
+    border-radius: 30px;
+    width: 100px;
+}
+
+a{
+    color: black;
+}
+
+.card-group{
+    display: inline-block;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.card-group img{
+    width: 30%; 
+    margin: 1.5%; 
+    float: left;
+}
