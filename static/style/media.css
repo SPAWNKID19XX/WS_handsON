@@ -3,6 +3,10 @@
     .iframe{
         height:300px;
     }
+    .footer .custom_footer{
+        text-align: center;
+        margin-top: 25px;
+    }
 }
 
 /* 900 */
