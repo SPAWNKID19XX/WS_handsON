@@ -4,6 +4,10 @@ body{
     background: rgb(236, 236, 236);
 }
 /*NAVBAR*/
+.my_custom_nav_bar{
+    background-color: #ececec !important;
+}
+
 .my_custom_nav_bar ul {
     margin:0 auto;
 }
