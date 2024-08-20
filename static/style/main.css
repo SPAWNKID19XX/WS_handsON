@@ -3,14 +3,63 @@ body{
     padding: 0 0 0 0;
     background: rgb(236, 236, 236);
 }
+/*NAVBAR*/
+.my_custom_nav_bar{
+    background-color: #ececec !important;
+}
 
+.my_custom_nav_bar ul {
+    margin:0 auto;
+}
+.my_custom_nav_bar ul li a{
+    color: black;
+}
+
+.my_custom_nav_bar ul li a:hover{
+    text-decoration: red wavy underline;
+}
+
+.collapse navbar-collapse{
+    margin:0 auto;
+}
+
+
+
+
+
+/*CONTENT*/
+.section{
+    margin-top:50px;
+}
+.row {
+    /*border:red 1px solid;*/
+    }
+.col-md-6{
+    /*border:blue 1px solid;*/
+}
+.youtube_video_container{
+    background:black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 300px;
+}
+iframe{
+    width: 100%;
+}
+
+.form-control{
+    margin-top:5px;
+}
+
+.my_custom_button{
+    float:right;}
+
+/*FOOTER*/
 .navbar_footer{
     border-radius: 30px;
     width: 100px;
-}
-
-a{
-    color: black;
 }
 
 .card-group{
@@ -23,4 +72,9 @@ a{
     width: 30%; 
     margin: 1.5%; 
     float: left;
+}
+
+.card-body li {
+    border-bottom: grey 2px dotted;
+    margin-top: 10px;
 }
